@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <button @click="handleClick">
-      {{ obj.bla }}
-    </button>
     <router-view />
   </div>
 </template>
