@@ -1,13 +1,31 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
+    <button @click="handleClick">
+      {{ obj.bla }}
+    </button>
     <router-view />
   </div>
 </template>
 
 <script>
 export default {
-  name: "App"
+  name: "App",
+  data() {
+    return {
+      msg: "Welcome to Your Vue.js App",
+      obj: {
+        bla: "algo",
+        otrobla: []
+      }
+    };
+  },
+  methods: {
+    handleClick() {
+      // cosas
+      this.obj.bla = "ya deja de picar el boton";
+      return "hjghfgf";
+    }
+  }
 };
 </script>
 
