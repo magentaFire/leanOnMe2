@@ -1,14 +1,16 @@
-<template>
+<template class="login">
   <div>
-    <h2>LEAN ON ME</h2>
-    <div class="contentBtn">
-      <button>
-        LOGIN
-      </button>
-      <button>
-        JOIN UP
-      </button>
-    </div>
+    <section class="login">
+      <h2 class="titleLog">LEAN <i class="fas fa-power-off"></i>N ME</h2>
+      <div class="contentBtn">
+        <button>
+          LOGIN
+        </button>
+        <button>
+          JOIN UP
+        </button>
+      </div>
+    </section>
     <router-view />
   </div>
 </template>

@@ -13,10 +13,7 @@
       <h3>Step 1</h3>
       <h5>
         Tell us about you!
-        <i
-          class="fas fa-info-circle"
-          @click="profileInfo = !profileInfo"
-        ></i>
+        <i class="fas fa-info-circle" @click="profileInfo = !profileInfo"></i>
       </h5>
       <p v-if="profileInfo">
         We love to know about you, please tell us who you are.
@@ -24,10 +21,7 @@
       <h3>Step 2</h3>
       <h5>
         Project description
-        <i
-          class="fas fa-info-circle"
-          @click="projectInfo = !projectInfo"
-        ></i>
+        <i class="fas fa-info-circle" @click="projectInfo = !projectInfo"></i>
       </h5>
       <p v-if="projectInfo">
         What's your project about? we are thrilled about helping you building
@@ -36,10 +30,7 @@
       <h3>Step 3</h3>
       <h5>
         Build your lean canvas
-        <i
-          class="fas fa-info-circle"
-          @click="canvasInfo = !canvasInfo"
-        ></i>
+        <i class="fas fa-info-circle" @click="canvasInfo = !canvasInfo"></i>
       </h5>
       <p v-if="canvasInfo">
         This tool will help you to build a business model you can share with
@@ -48,10 +39,7 @@
       <h3>Step 4</h3>
       <h5>
         Metrics
-        <i
-          class="fas fa-info-circle"
-          @click="metricsInfo = !metricsInfo"
-        ></i>
+        <i class="fas fa-info-circle" @click="metricsInfo = !metricsInfo"></i>
       </h5>
       <p v-if="metricsInfo">
         Feed our calculator with your company metrics and thrive with help of
