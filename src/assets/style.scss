@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1em;
-  background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
+  // background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
 }
 
 .titleLog {
@@ -43,5 +43,16 @@ body {
     background-color: transparent;
     border: 2px solid $white;
     color: $white;
+  }
+}
+
+.form {
+  input {
+    display: block;
+    width: 250px;
+    padding: 16px;
+    border: none;
+    border-radius: 5px;
+    margin: 1em auto;
   }
 }
