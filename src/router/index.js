@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Login from "@/components/Login";
 import Welcome from "@/components/Welcome";
 import Description from "@/components/Description";
+import Profile from "@/components/Profile";
 
 Vue.use(Router);
 
@@ -22,6 +23,11 @@ export default new Router({
       path: "/description",
       name: "description",
       component: Description
+    },
+    {
+      path: "/leanie-profile",
+      name: "leanie-profile",
+      component: Profile
     }
   ]
 });
