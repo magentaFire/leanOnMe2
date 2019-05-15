@@ -2,6 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>is this shit working???</h2>
+    <h2>yes!</h2>
   </div>
 </template>
 
