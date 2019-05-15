@@ -1,3 +1,5 @@
+$white: #ffffff;
+
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +15,28 @@ body {
   background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
 }
 
+.titleLog {
+  color: $white;
+}
+
 .contentBtn {
   position: absolute;
-  bottom: 3em;
+  bottom: 6em;
 
   button {
     width: 300px;
     height: 60px;
-    margin: auto;
-    display: block;
+    background-color: $white;
+    border: none;
+    border-radius: 20px;
+    margin-top: 1em;
+    font-weight: lighter;
+
+  }
+
+  button:nth-child(1) {
+    background-color: transparent;
+    border: 2px solid $white;
+    color: $white;
   }
 }
