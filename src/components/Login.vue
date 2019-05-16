@@ -1,6 +1,6 @@
 <template class="login">
   <div>
-    <section class="login">
+    <section class="bk">
       <h2 class="titleLog">LEAN <i class="fas fa-power-off"></i>N ME</h2>
       <div class="contentBtn">
         <button>
