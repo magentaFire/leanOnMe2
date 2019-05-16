@@ -36,8 +36,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
-@import "../assets/style.scss";
+<style lang="scss">
+@import "@/assets/style.scss";
 img {
   max-width: 60vw;
   transform: rotate(-90deg);

@@ -1,0 +1,94 @@
+.card {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+
+  &.user-card {
+    background-color: $user-card;
+  }
+
+  &.problem-card {
+    background-color: $problem-card;
+  }
+
+  &.value-card {
+    background-color: $value-card;
+  }
+
+  &.revenue-card {
+    background-color: $revenue-card;
+  }
+
+  &.costs-card {
+    background-color: $costs-card;
+  }
+
+  &.solution-card {
+    background-color: $solution-card;
+  }
+
+  &.metrics-card {
+    background-color: $metrics-card;
+  }
+
+  &.channels-card {
+    background-color: $channels-card;
+  }
+
+  &.advantage-card {
+    background-color: $advantage-card;
+  }
+
+  .header {
+    color: white;
+  }
+}
+
+.card-content {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  color: black;
+
+  &.user-card {
+    background-color: $user-card-50;
+  }
+
+  &.problem-card {
+    background-color: $problem-card-50;
+  }
+
+  &.value-card {
+    background-color: $value-card-50;
+  }
+
+  &.revenue-card {
+    background-color: $revenue-card-50;
+  }
+
+  &.costs-card {
+    background-color: $costs-card-50;
+  }
+
+  &.solution-card {
+    background-color: $solution-card-50;
+  }
+
+  &.metrics-card {
+    background-color: $metrics-card-50;
+  }
+
+  &.channels-card {
+    background-color: $channels-card-50;
+  }
+
+  &.advantage-card {
+    background-color: $advantage-card-50;
+  }
+}
