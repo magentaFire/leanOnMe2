@@ -10,9 +10,18 @@
       </div>
     </div>
     <div v-if="displayContent" class="card-content costs-card">
-      <p>
-        What are the costs to build your company?
+      <p class="mb-1">
+        How much will cost build your company?
+        <br />
+        Make a list of regular outcome streams
+        <br />
+        List all the "one time" expenses you must do
+        <br />
+        Are you buying tools/machines to build your empire?
+        <br />
+        Renting a local?
       </p>
+      <input type="text" placeholder="List outcome streams" />
     </div>
   </div>
 </template>

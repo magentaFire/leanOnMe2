@@ -1,5 +1,10 @@
 <template>
   <div class="container">
+    <h2 class="mb-1">We are excited to meet you!</h2>
+    <i class="fas fa-smile-beam"></i>
+    <p class="mb-2">
+      Tell us about you! We are impatient to know everything you have to say!
+    </p>
     <div class="contentImg">
       <img src="@/assets/magenta.jpg" alt="" class="mb-3" />
     </div>
