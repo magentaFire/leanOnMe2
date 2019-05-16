@@ -1,11 +1,14 @@
 <template class="login">
   <div>
-    <section class="login">
-      <h2 class="titleLog">LEAN <i class="fas fa-power-off"></i>N ME</h2>
-      <div class="contentBtn">
-        <button>
-          LOGIN
-        </button>
+    <section class="bk">
+      <img class="logo" src="@/assets/logo.png" alt="logo" />
+      <p>We support you</p>
+      <div class="introtBtn">
+        <router-link :to="{ name: 'leanie-profile' }">
+          <button>
+            LOGIN
+          </button>
+        </router-link>
         <button>
           JOIN UP
         </button>
@@ -32,5 +35,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/style.scss";
+@import "@/assets/style.scss";
 </style>

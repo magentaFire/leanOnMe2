@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>
+    <div class="contentImg">
       <img src="@/assets/magenta.jpg" alt="" class="mb-3" />
     </div>
     <div>
@@ -17,11 +17,13 @@
         <input class="mb-1" type="text" name="Age" placeholder="Age" />
         <input class="mb-1" type="text" name="Gender" placeholder="Gender" />
       </div>
-      <router-link :to="{ name: 'description' }" class="contenBtn">
-        <button>
-          Save
-        </button>
-      </router-link>
+      <div class="contentBtn">
+        <router-link :to="{ name: 'description' }" class="contenBtn">
+          <button>
+            Save
+          </button>
+        </router-link>
+      </div>
     </div>
   </div>
 </template>
@@ -36,8 +38,8 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="scss" scoped>
-@import "../assets/style.scss";
+<style lang="scss">
+@import "@/assets/style.scss";
 img {
   max-width: 60vw;
   transform: rotate(-90deg);
