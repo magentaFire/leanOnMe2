@@ -9,15 +9,15 @@
       way mentors and investors (LEANers) can see your project in a cool and
       easy way and guide you to success!
     </p>
-    <CustomerCard class="mb-1" />
-    <ProblemCard class="mb-1" />
-    <ValueCard class="mb-1" />
-    <RevenueCard class="mb-1" />
-    <CostsCard class="mb-1" />
-    <SolutionCard class="mb-1" />
-    <MetricsCard class="mb-1" />
-    <ChannelsCard class="mb-1" />
-    <AdvantageCard class="mb-1" />
+    <CustomerCard />
+    <ProblemCard />
+    <ValueCard />
+    <RevenueCard />
+    <CostsCard />
+    <SolutionCard />
+    <MetricsCard />
+    <ChannelsCard />
+    <AdvantageCard />
   </div>
 </template>
 

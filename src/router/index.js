@@ -9,7 +9,8 @@ import Wizard from "@/components/Wizard";
 Vue.use(Router);
 
 export default new Router({
-  routes: [{
+  routes: [
+    {
       path: "/",
       name: "Login",
       component: Login
