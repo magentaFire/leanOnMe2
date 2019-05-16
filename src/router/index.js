@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Login from "@/components/Login";
 import Welcome from "@/components/Welcome";
 import Profile from "@/components/Profile";
+import Wizard from "@/components/Wizard";
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
       path: "/welcome",
       name: "welcome",
       component: Welcome
+    },
+    {
+      path: "/wizard",
+      name: "wizard",
+      component: Wizard
     },
     {
       path: "/leanie-profile",

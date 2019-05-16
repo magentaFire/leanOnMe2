@@ -1,7 +1,4 @@
-$white: #ffffff;
-$purple: #781E91;
-$indigo: #231651;
-$turquesa: #048BA8;
+@import 'variables', 'cards';
 
 * {
   margin: 0;
@@ -15,11 +12,15 @@ body {
   padding: 0;
   margin: 0;
   font-size: 1em;
-  background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
+  // background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
 
   .container {
     padding: 0 1.5rem;
     margin-bottom: 2.5rem;
+
+    p {
+      text-align: justify;
+    }
   }
 }
 
