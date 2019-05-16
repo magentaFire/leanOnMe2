@@ -4,12 +4,12 @@ import Login from "@/components/Login";
 import Welcome from "@/components/Welcome";
 import Description from "@/components/Description";
 import Profile from "@/components/Profile";
+import Wizard from "@/components/Wizard";
 
 Vue.use(Router);
 
 export default new Router({
-  routes: [
-    {
+  routes: [{
       path: "/",
       name: "Login",
       component: Login
@@ -23,6 +23,11 @@ export default new Router({
       path: "/description",
       name: "description",
       component: Description
+    },
+    {
+      path: "/wizard",
+      name: "wizard",
+      component: Wizard
     },
     {
       path: "/leanie-profile",
