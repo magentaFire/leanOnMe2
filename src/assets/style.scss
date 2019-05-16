@@ -11,16 +11,24 @@ $turquesa: #048BA8;
 
 body {
   width: 100%;
-  height: 100vh;
   padding: 0;
   margin: 0;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
   font-size: 1em;
-  // background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 86.98%, rgba(209, 178, 217, 0.342857) 90.62%, #781E91 100%), #FFFFFF;
 
   .container {
     padding: 0 1.5rem;
     margin-bottom: 2.5rem;
   }
+}
+
+.bk {
+  height: 100vh;
+  background: linear-gradient(180deg, #231651 0%, #781E91 99.78%), #781E91;
 }
 
 .mb-1 {
