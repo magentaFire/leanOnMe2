@@ -1,11 +1,14 @@
 <template class="login">
   <div>
     <section class="bk">
-      <h2 class="titleLog">LEAN <i class="fas fa-power-off"></i>N ME</h2>
-      <div class="contentBtn">
-        <button>
-          LOGIN
-        </button>
+      <img class="logo" src="@/assets/logo.png" alt="logo" />
+      <p>We support you</p>
+      <div class="introtBtn">
+        <router-link :to="{ name: 'leanie-profile' }">
+          <button>
+            LOGIN
+          </button>
+        </router-link>
         <button>
           JOIN UP
         </button>

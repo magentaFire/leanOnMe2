@@ -53,11 +53,14 @@
 .card-content {
   width: 100%;
   height: auto;
-  border-radius: 7px;
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 3rem 1em;
   color: black;
+  top: -2em;
+  position: relative;
+  z-index: -1;
+  border-radius: 0px 0px 0px 20px;
 
   &.user-card {
     background-color: $user-card-50;
