@@ -10,9 +10,12 @@
       </div>
     </div>
     <div v-if="displayContent" class="card-content problem-card">
-      <p>
+      <p class="mb-1">
         What is the problem you ar solving?
+        <br />
+        Make some research to know what is your user problematics
       </p>
+      <input type="text" placeholder="What is your user problem?" />
     </div>
   </div>
 </template>

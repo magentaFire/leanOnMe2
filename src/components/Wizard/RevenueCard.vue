@@ -10,9 +10,12 @@
       </div>
     </div>
     <div v-if="displayContent" class="card-content revenue-card">
-      <p>
-        List the revenue streams to use
+      <p class="mb-1">
+        How will you get paid?
+        <br />
+        Here is where you make money! so strive!
       </p>
+      <input type="text" placeholder="Monetize your idea" />
     </div>
   </div>
 </template>

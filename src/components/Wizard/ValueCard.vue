@@ -10,9 +10,14 @@
       </div>
     </div>
     <div v-if="displayContent" class="card-content value-card">
-      <p>
-        Write the value proposition
+      <p class="mb-1">
+        Seduce your user!
+        <br />
+        Be creative: A simple, yet compelling phrase will do the work for you
+        <br />
+        Make a prospect or client/user out of an unaware visitor
       </p>
+      <input type="text" placeholder="What does your user need?" />
     </div>
   </div>
 </template>

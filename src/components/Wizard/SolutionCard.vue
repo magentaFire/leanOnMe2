@@ -10,8 +10,13 @@
       </div>
     </div>
     <div v-if="displayContent" class="card-content solution-card">
-      <p>
-        create a solution
+      <p class="mb-1">
+        Suggest a few solutions to solve your user problems
+        <br />
+        Be creative: think about your user and propose an awesome solution
+        <br />
+        If you think in making money here, you are not really thinking about
+        your user(s) and how to help them
       </p>
     </div>
   </div>

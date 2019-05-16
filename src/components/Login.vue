@@ -4,7 +4,7 @@
       <img class="logo" src="@/assets/logo.png" alt="logo" />
       <p>We support you</p>
       <div class="introtBtn">
-        <router-link :to="{ name: 'leanie-profile' }">
+        <router-link :to="{ name: 'welcome' }">
           <button>
             LOGIN
           </button>

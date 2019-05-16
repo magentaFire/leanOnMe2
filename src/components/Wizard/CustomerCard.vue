@@ -10,9 +10,14 @@
       </div>
     </div>
     <div v-if="displayContent" class="card-content user-card">
-      <p>
-        create a customer
+      <p class="mb-1">
+        To fill this field ask yourself:
+        <br />
+        Who is the user of your product?
+        <br />
+        Who could be the early adopters of your product/service?
       </p>
+      <input type="text" placeholder="Who is your user(s)?" />
     </div>
   </div>
 </template>
